@@ -75,7 +75,7 @@ function displayFriends() {
             }
             // if the friend's satisfaction level is below 3 and you have mushrooms left, increment the friends satisfaction and decrement your mushrooms
             if (mushroomCount > 0 && friendInState.satisfaction < 3) {
-                friendInState++;
+                friendInState.satisfaction++;
                 mushroomCount--;
                 // display your friends and mushrooms with the updated state
                 displayFriends();
