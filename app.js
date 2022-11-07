@@ -76,6 +76,7 @@ function displayFriends() {
         });
 
         // append the friendEl to the friends list in DOM
+        friendsEl.append(friendEl);
     }
 }
 
